@@ -134,6 +134,11 @@
                         </form>
                     </div>
                 </div>
+                <form action="{{route('users.destroy',$user->id)}}" method="POST">
+                    @csrf
+                    @method('DELETE')
+                    <button class="btn btn-danger mt-2">Delete {{$user->username}}</button>
+                </form>
             </div>
         </div>
     </div>
