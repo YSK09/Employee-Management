@@ -22,6 +22,17 @@
     <!-- Custom styles for this template-->
     <link href="{{asset('css/sb-admin-2.min.css')}}" rel="stylesheet">
 
+    <style>
+        footer{
+            height: 50px;
+        }
+
+        .footer{
+            text-align: center;
+            margin-top: 15px;
+        }
+    </style>
+
 </head>
 
 <body id="page-top">
@@ -154,10 +165,10 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <footer class=" bg-white">
                 <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                    <div class="footer">
+                        <span >Copyright &copy; Your Website 2021</span>
                     </div>
                 </div>
             </footer>
