@@ -68,7 +68,7 @@ class StateController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request,State $state)
+    public function edit(State $state)
     {
         $countries = Country::all();
 
