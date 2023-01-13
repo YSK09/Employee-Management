@@ -16,6 +16,8 @@ import { createApp } from 'vue';
 const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
+import EmployeesIndex from './components/employees/EmployeesIndex.vue';
+app.component('employees-index', EmployeesIndex);
 app.component('example-component', ExampleComponent);
 
 /**
