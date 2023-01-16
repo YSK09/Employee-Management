@@ -11,6 +11,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import EmployeesIndex from './components/employees/EmployeesIndex.vue';
 import EmployeesCreate from './components/employees/EmployeesCreate.vue';
+import EmployeesEdit from './components/employees/EmployeesEdit.vue';
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
@@ -24,6 +25,7 @@ const router = createRouter( {
     routes: [
         {path: '/employees', name: 'EmployeesIndex', component: EmployeesIndex},
         {path: '/create', name: 'EmployeesCreate', component: EmployeesCreate},
+        {path: '/edit', name: 'EmployeesEdit', component: EmployeesEdit},
     ]
 })
 

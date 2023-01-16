@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Api\EmployeeController;
 use App\Http\Controllers\Api\EmployeeDataController;
+use App\Models\Employee;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -25,3 +26,7 @@ Route::get('/employees/departments',[EmployeeDataController::class,'departments'
 Route::get('/employees/{state}/cities',[EmployeeDataController::class,'cities']);
 
 Route::post('/employees',[EmployeeController::class,'store']);
+
+Route::get('/employees',[EmployeeController::class,'index']);
+
+Route::delete('/employees/{employee}',[EmployeeController::class,'destroy']);
