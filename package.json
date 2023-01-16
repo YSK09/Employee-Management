@@ -51,6 +51,7 @@
     "magic-string": "^0.25.9",
     "mime-db": "^1.52.0",
     "mime-types": "^2.1.35",
+    "moment": "^2.29.4",
     "nanoid": "^3.3.4",
     "normalize-path": "^3.0.0",
     "path-parse": "^1.0.7",
